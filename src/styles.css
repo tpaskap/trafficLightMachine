@@ -1,3 +1,13 @@
+/*
+Ce code CSS définit les styles pour une classe nommée .App. Les propriétés CSS qui lui sont appliquées sont les suivantes :
+
+font-family: Définit la police de caractères à utiliser pour le texte dans cet élément.
+text-align: Définit l'alignement horizontal du texte dans cet élément.
+top: Définit la distance de l'élément par rapport au bord supérieur de son conteneur parent.
+position: Définit le type de positionnement de l'élément.
+Dans ce cas, la classe .App est utilisée dans le code HTML pour définir le style d'un élément spécifique de l'application.
+*/
+
 .App {
   font-family: sans-serif;
   text-align: center;

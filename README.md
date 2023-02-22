@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Le fichier "TrafficLight.js" définit un composant React appelé TrafficLight. Ce composant dessine un feu de signalisation avec trois cercles pour les feux rouges, jaunes et verts. Les couleurs et la taille de chaque cercle peuvent être personnalisées à l'aide de props. Le composant peut également être affiché en mode horizontal en réglant la prop "Horizontal" à true.
+
+Le fichier "App.js" définit un composant React appelé App. Il importe le composant TrafficLight ainsi que les packages xstate et useStateMachine. Il utilise ces derniers pour créer un "state machine" qui modélise un feu de signalisation à trois feux. L'état initial est "vert" et en cliquant sur le bouton "Next light", le composant passe à l'état suivant. Les différents états du composant sont définis dans le fichier "state.js".
+
+En résumé, le code fourni implémente un feu de signalisation qui passe automatiquement du vert au jaune puis au rouge, et ainsi de suite, et peut être contrôlé à l'aide d'un bouton "Next light".

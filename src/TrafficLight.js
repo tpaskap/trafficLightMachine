@@ -2,6 +2,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// Ce code définit un composant React TrafficLight qui représente un feu de signalisation. 
+// Le composant prend plusieurs propriétés telles que
+// onRedClick, onYellowClick, onGreenClick, RedOn, YellowOn, GreenOn, Size, BlackColor, DisabledColor, RedColor, YellowColor, GreenColor, Horizontal. 
+// Le composant utilise ces propriétés pour créer un SVG (Scalable Vector Graphics) 
+// qui dessine les trois cercles colorés représentant les feux de signalisation et qui peut être cliqué 
+//pour déclencher les fonctions onRedClick, onYellowClick, onGreenClick.
+// La propriété Size définit la taille du SVG et les propriétés de couleur définissent les couleurs des feux de signalisation. 
+// La propriété Horizontal est utilisée pour définir l'orientation du feu de signalisation (horizontal ou vertical). 
+// Le composant utilise également PropTypes pour vérifier les types de propriétés et fournir des valeurs par défaut pour les propriétés qui ne sont pas passées.
+
 const scale = 1 / 0.375;
 
 const TrafficLight = ({
