@@ -75,3 +75,5 @@ Le fichier "TrafficLight.js" définit un composant React appelé TrafficLight. C
 Le fichier "App.js" définit un composant React appelé App. Il importe le composant TrafficLight ainsi que les packages xstate et useStateMachine. Il utilise ces derniers pour créer un "state machine" qui modélise un feu de signalisation à trois feux. L'état initial est "vert" et en cliquant sur le bouton "Next light", le composant passe à l'état suivant. Les différents états du composant sont définis dans le fichier "state.js".
 
 En résumé, le code fourni implémente un feu de signalisation qui passe automatiquement du vert au jaune puis au rouge, et ainsi de suite, et peut être contrôlé à l'aide d'un bouton "Next light".
+
+See : https://stately.ai/registry/editor/f7799fd4-b2cc-4741-833b-f0a5acf04437?machineId=a4462d3d-41fc-4485-a391-12b8fe5255a7
